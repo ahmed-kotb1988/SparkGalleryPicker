@@ -20,6 +20,8 @@
 		EC348DBF22AC4164000C2A46 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC348DBE22AC4164000C2A46 /* GoogleService-Info.plist */; };
 		EC348DC122AC4768000C2A46 /* GalleryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC348DC022AC4768000C2A46 /* GalleryViewModel.swift */; };
 		EC348DC322AC479F000C2A46 /* GalleryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC348DC222AC479F000C2A46 /* GalleryPickerView.swift */; };
+		EC348DC522AC57BC000C2A46 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC348DC422AC57BC000C2A46 /* GalleryViewController.swift */; };
+		EC348DC922AC6DD2000C2A46 /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC348DC822AC6DD2000C2A46 /* GalleryCollectionViewCell.swift */; };
 		F28C0E6B73507F09B228422B /* Pods_GalleryUploadExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97A65BC2D2E30067A433F99 /* Pods_GalleryUploadExampleTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +68,8 @@
 		EC348DBE22AC4164000C2A46 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EC348DC022AC4768000C2A46 /* GalleryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewModel.swift; sourceTree = "<group>"; };
 		EC348DC222AC479F000C2A46 /* GalleryPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryPickerView.swift; sourceTree = "<group>"; };
+		EC348DC422AC57BC000C2A46 /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		EC348DC822AC6DD2000C2A46 /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
 		F97A65BC2D2E30067A433F99 /* Pods_GalleryUploadExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GalleryUploadExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -155,6 +159,8 @@
 				EC348DBC22AC3757000C2A46 /* ConnectionManager.swift */,
 				EC348DC022AC4768000C2A46 /* GalleryViewModel.swift */,
 				EC348DC222AC479F000C2A46 /* GalleryPickerView.swift */,
+				EC348DC422AC57BC000C2A46 /* GalleryViewController.swift */,
+				EC348DC822AC6DD2000C2A46 /* GalleryCollectionViewCell.swift */,
 			);
 			path = GalleryUploadExample;
 			sourceTree = "<group>";
@@ -397,7 +403,9 @@
 				EC348D9122AC34F0000C2A46 /* ViewController.swift in Sources */,
 				EC348DC122AC4768000C2A46 /* GalleryViewModel.swift in Sources */,
 				EC348DBD22AC3757000C2A46 /* ConnectionManager.swift in Sources */,
+				EC348DC522AC57BC000C2A46 /* GalleryViewController.swift in Sources */,
 				EC348DC322AC479F000C2A46 /* GalleryPickerView.swift in Sources */,
+				EC348DC922AC6DD2000C2A46 /* GalleryCollectionViewCell.swift in Sources */,
 				EC348D8F22AC34F0000C2A46 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
