@@ -19,6 +19,8 @@ class GalleryViewController: UIViewController {
     
 
     @IBAction func addPhotosTapped(_ sender: UIButton) {
+        
+        GalleryPickerView().showImagePicker(destinationViewController: self)
     }
     /*
     // MARK: - Navigation

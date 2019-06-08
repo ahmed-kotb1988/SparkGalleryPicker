@@ -27,6 +27,25 @@ class GalleryPickerView: NSObject {
         
         self.viewController = destinationViewController
         
+        let cameraAction = UIAlertAction(title: "Camera", style: .default){
+            UIAlertAction in
+            self.openCamera()
+        }
+        let galleryAction = UIAlertAction(title: "Gallery", style: .default){
+            UIAlertAction in
+            self.openGallery()
+        }
+        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel){
+            UIAlertAction in
+        }
+        
+        // Add the actions
+        picker.delegate = self
+        alert.addAction(cameraAction)
+        alert.addAction(galleryAction)
+        alert.addAction(cancelAction)
+        alert.popoverPresentationController?.sourceView = self.viewController!.view
+        viewController!.present(alert, animated: true, completion: nil)
     }
     
     func openCamera(){
@@ -53,7 +72,7 @@ class GalleryPickerView: NSObject {
     }
 }
 
-extension GalleryPickerView : UIImagePickerControllerDelegate{
+extension GalleryPickerView : UIImagePickerControllerDelegate, UINavigationControllerDelegate{
     
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
         picker.dismiss(animated: true, completion: nil)
